@@ -4,71 +4,72 @@ import image2 from '../../assets/image7.jpg';
 import image3 from '../../assets/image8.jpg';
 import image4 from '../../assets/image9.jpg';
 
+
 function Donate() {
   return (
     <>
-      <section class="section donate" id="donate">
-        <div class="container">
-          <ul class="donate-list">
+      <section className="section donate" id="donate">
+        <div className="container">
+          <ul className="donate-list">
             <li>
-              <div class="donate-card">
-                <figure class="card-banner">
+              <div className="donate-card">
+                <figure className="card-banner">
                   <img
                     src={image1}
                     width="520"
                     height="325"
                     loading="lazy"
                     alt="Elephant"
-                    class="img-cover"
+                    className="img-cover"
                   />
                 </figure>
 
-                <div class="card-content">
-                  <div class="progress-wrapper">
-                    <p class="progress-text">
+                <div className="card-content">
+                  <div className="progress-wrapper">
+                    <p className="progress-text">
                       <span>Raised</span>
 
                       <data value="256">$256</data>
                     </p>
 
-                    <data class="progress-value" value="83">
+                    <data className="progress-value" value="83">
                       83%
                     </data>
                   </div>
 
-                  <div class="progress-box">
-                    <div class="progress"></div>
+                  <div className="progress-box">
+                    <div className="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+                  <h3 className="h3 card-title">Help Now </h3>
 
-                  <div class="card-wrapper">
-                    <p class="card-wrapper-text">
+                  <div className="card-wrapper">
+                    <p className="card-wrapper-text">
                       <span>Goal</span>
 
-                      <data class="green" value="34562">
+                      <data className="green" value="34562">
                         $34562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>Raise</span>
 
-                      <data class="yellow" value="562">
+                      <data className="yellow" value="562">
                         $562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>To Go</span>
 
-                      <data class="cyan" value="864">
+                      <data className="cyan" value="864">
                         $864
                       </data>
                     </p>
                   </div>
 
-                  <button class="btn btn-secondary">
+                  <button className="btn btn-secondary">
                     <span>Donation</span>
 
                     <ion-icon
@@ -81,64 +82,64 @@ function Donate() {
             </li>
 
             <li>
-              <div class="donate-card">
-                <figure class="card-banner">
+              <div className="donate-card">
+                <figure className="card-banner">
                   <img
                     src={image2}
                     width="520"
                     height="325"
                     loading="lazy"
                     alt="Elephant"
-                    class="img-cover"
+                    className="img-cover"
                   />
                 </figure>
 
-                <div class="card-content">
-                  <div class="progress-wrapper">
-                    <p class="progress-text">
+                <div className="card-content">
+                  <div className="progress-wrapper">
+                    <p className="progress-text">
                       <span>Raised</span>
 
                       <data value="256">$256</data>
                     </p>
 
-                    <data class="progress-value" value="83">
+                    <data className="progress-value" value="83">
                       83%
                     </data>
                   </div>
 
-                  <div class="progress-box">
-                    <div class="progress"></div>
+                  <div className="progress-box">
+                    <div className="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+                  <h3 className="h3 card-title">Help Now </h3>
 
-                  <div class="card-wrapper">
-                    <p class="card-wrapper-text">
+                  <div className="card-wrapper">
+                    <p className="card-wrapper-text">
                       <span>Goal</span>
 
-                      <data class="green" value="34562">
+                      <data className="green" value="34562">
                         $34562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>Raise</span>
 
-                      <data class="yellow" value="562">
+                      <data className="yellow" value="562">
                         $562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>To Go</span>
 
-                      <data class="cyan" value="864">
+                      <data className="cyan" value="864">
                         $864
                       </data>
                     </p>
                   </div>
 
-                  <button class="btn btn-secondary">
+                  <button className="btn btn-secondary">
                     <span>Donation</span>
 
                     <ion-icon
@@ -151,64 +152,64 @@ function Donate() {
             </li>
 
             <li>
-              <div class="donate-card">
-                <figure class="card-banner">
+              <div className="donate-card">
+                <figure className="card-banner">
                   <img
                     src={image3}
                     width="520"
                     height="325"
                     loading="lazy"
                     alt="Elephant"
-                    class="img-cover"
+                    className="img-cover"
                   />
                 </figure>
 
-                <div class="card-content">
-                  <div class="progress-wrapper">
-                    <p class="progress-text">
+                <div className="card-content">
+                  <div className="progress-wrapper">
+                    <p className="progress-text">
                       <span>Raised</span>
 
                       <data value="256">$256</data>
                     </p>
 
-                    <data class="progress-value" value="83">
+                    <data className="progress-value" value="83">
                       83%
                     </data>
                   </div>
 
-                  <div class="progress-box">
-                    <div class="progress"></div>
+                  <div className="progress-box">
+                    <div className="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+                  <h3 className="h3 card-title">Help Now </h3>
 
-                  <div class="card-wrapper">
-                    <p class="card-wrapper-text">
+                  <div className="card-wrapper">
+                    <p className="card-wrapper-text">
                       <span>Goal</span>
 
-                      <data class="green" value="34562">
+                      <data className="green" value="34562">
                         $34562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>Raise</span>
 
-                      <data class="yellow" value="562">
+                      <data className="yellow" value="562">
                         $562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>To Go</span>
 
-                      <data class="cyan" value="864">
+                      <data className="cyan" value="864">
                         $864
                       </data>
                     </p>
                   </div>
 
-                  <button class="btn btn-secondary">
+                  <button className="btn btn-secondary">
                     <span>Donation</span>
 
                     <ion-icon
@@ -221,64 +222,64 @@ function Donate() {
             </li>
 
             <li>
-              <div class="donate-card">
-                <figure class="card-banner">
+              <div className="donate-card">
+                <figure className="card-banner">
                   <img
                     src={image4}
                     width="520"
                     height="325"
                     loading="lazy"
                     alt="Elephant"
-                    class="img-cover"
+                    className="img-cover"
                   />
                 </figure>
 
-                <div class="card-content">
-                  <div class="progress-wrapper">
-                    <p class="progress-text">
+                <div className="card-content">
+                  <div className="progress-wrapper">
+                    <p className="progress-text">
                       <span>Raised</span>
 
                       <data value="256">$256</data>
                     </p>
 
-                    <data class="progress-value" value="83">
+                    <data className="progress-value" value="83">
                       83%
                     </data>
                   </div>
 
-                  <div class="progress-box">
-                    <div class="progress"></div>
+                  <div className="progress-box">
+                    <div className="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+                  <h3 className="h3 card-title">Help Now </h3>
 
-                  <div class="card-wrapper">
-                    <p class="card-wrapper-text">
+                  <div className="card-wrapper">
+                    <p className="card-wrapper-text">
                       <span>Goal</span>
 
-                      <data class="green" value="34562">
+                      <data className="green" value="34562">
                         $34562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>Raise</span>
 
-                      <data class="yellow" value="562">
+                      <data className="yellow" value="562">
                         $562
                       </data>
                     </p>
 
-                    <p class="card-wrapper-text">
+                    <p className="card-wrapper-text">
                       <span>To Go</span>
 
-                      <data class="cyan" value="864">
+                      <data className="cyan" value="864">
                         $864
                       </data>
                     </p>
                   </div>
 
-                  <button class="btn btn-secondary">
+                  <button className="btn btn-secondary">
                     <span>Donation</span>
 
                     <ion-icon

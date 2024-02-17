@@ -1,21 +1,55 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
-
-function Header() {
-  const [isSticky, setSticky] = useState(false);
-
-  const checkScrollTop = () => {
-    setSticky(window.scrollY > 0);
-  };
-
+const Header = () => {
   useEffect(() => {
-    window.addEventListener('scroll', checkScrollTop);
-    return () => window.removeEventListener('scroll', checkScrollTop);
-  }, []);
+    const navOpenBtn = document.querySelector("[data-nav-open-btn]");
+    const navbar = document.querySelector("[data-navbar]");
+    const navCloseBtn = document.querySelector("[data-nav-close-btn]");
+
+    const navElemArr = [navOpenBtn, navCloseBtn];
+
+    const toggleNavbar = () => {
+      navbar.classList.toggle("active");
+    };
+
+    const closeNavbar = () => {
+      navbar.classList.remove("active");
+    };
+
+    for (let i = 0; i < navElemArr.length; i++) {
+      navElemArr[i].addEventListener("click", toggleNavbar);
+    }
+
+    const navbarLinks = document.querySelectorAll("[data-nav-link]");
+    for (let i = 0; i < navbarLinks.length; i++) {
+      navbarLinks[i].addEventListener("click", closeNavbar);
+    }
+
+    const header = document.querySelector("[data-header]");
+
+    const handleScroll = () => {
+      window.scrollY >= 50 ? header.classList.add("active") : header.classList.remove("active");
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup function to remove event listeners when component unmounts
+    return () => {
+      for (let i = 0; i < navElemArr.length; i++) {
+        navElemArr[i].removeEventListener("click", toggleNavbar);
+      }
+
+      for (let i = 0; i < navbarLinks.length; i++) {
+        navbarLinks[i].removeEventListener("click", closeNavbar);
+      }
+
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // Empty dependency array ensures that this effect runs only once after initial render
 
   return (
     <>
-      <header className={`header ${isSticky ? 'active' : ''}`} data-header>
+<header className="header" data-header>
       <div className="container">
 
 <h1>
