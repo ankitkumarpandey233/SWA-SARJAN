@@ -10,11 +10,11 @@ function Hero() {
           <p className="section-subtitle">
             <img src={image1} width="32" height="7" alt="Wavy line"/>
 
-            <span>Welcome to Wildvine</span>
+            <span>Welcome to Swa Sarjan</span>
           </p>
 
           <h2 className="h1 hero-title">
-            Give Love for Saving <strong>World Animals</strong>
+            Give love for saving <strong>People around the world</strong>
           </h2>
 
           <p className="hero-text">
@@ -24,7 +24,7 @@ function Hero() {
           </p>
 
           <button className="btn btn-primary">
-            <span>login</span>
+            <span>Login</span>
 
             <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
           </button>

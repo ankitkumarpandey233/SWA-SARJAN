@@ -27,7 +27,7 @@ function Services() {
                   <ion-icon name="leaf-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3 card-title">Save Nature</h3>
+                <h3 class="h3 card-title">Save Girl Child</h3>
 
                 <p class="card-text">
                   Tempor incididunt ut labores
@@ -50,7 +50,7 @@ function Services() {
                   <ion-icon name="earth-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3 card-title">Save Ecology</h3>
+                <h3 class="h3 card-title">Education</h3>
 
                 <p class="card-text">
                   Tempor incididunt ut labores
@@ -73,7 +73,7 @@ function Services() {
                   <ion-icon name="flower-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3 card-title">Tree Plantation</h3>
+                <h3 class="h3 card-title">Healthcare</h3>
 
                 <p class="card-text">
                   Tempor incididunt ut labores
@@ -96,7 +96,7 @@ function Services() {
                   <ion-icon name="boat-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3 card-title">Clear Ocean</h3>
+                <h3 class="h3 card-title">Spread Love</h3>
 
                 <p class="card-text">
                   Tempor incididunt ut labores

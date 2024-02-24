@@ -14,7 +14,7 @@ const Feature = () => {
               </div>
 
               <div>
-                <h3 className="h4 item-title">Safe Shelter</h3>
+                <h3 className="h4 item-title">Education</h3>
 
                 <p className="item-text">
                   Sit amet consecte adiscine
@@ -29,7 +29,7 @@ const Feature = () => {
               </div>
 
               <div>
-                <h3 className="h4 item-title">Safe Water</h3>
+                <h3 className="h4 item-title">Healthcare</h3>
 
                 <p className="item-text">
                   Sit amet consecte adiscine
@@ -44,7 +44,7 @@ const Feature = () => {
               </div>
 
               <div>
-                <h3 className="h4 item-title">Ecology Save</h3>
+                <h3 className="h4 item-title">Women Empowernment</h3>
 
                 <p className="item-text">
                   Sit amet consecte adiscine

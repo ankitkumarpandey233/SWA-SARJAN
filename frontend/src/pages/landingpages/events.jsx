@@ -25,7 +25,7 @@ function Events() {
                             <div className="event-card">
 
                                 <time className="card-time" datetime="01-05">
-                                    <span className="month">Jan</span>
+                                    <span className="month">Mar</span>
 
                                     <span className="date">05</span>
                                 </time>
@@ -33,7 +33,7 @@ function Events() {
                                 <div className="wrapper">
 
                                     <div className="card-content">
-                                        <p className="card-subtitle">Ocean Water</p>
+                                        <p className="card-subtitle">Education</p>
 
                                         <h3 className="card-title">Far from the countries Vokalia and Consonantia 2022</h3>
 
@@ -65,7 +65,7 @@ function Events() {
                                 <div className="wrapper">
 
                                     <div className="card-content">
-                                        <p className="card-subtitle">Ocean Water</p>
+                                        <p className="card-subtitle">Healthcare</p>
 
                                         <h3 className="card-title">Far from the countries Vokalia and Consonantia 2022</h3>
 
@@ -97,7 +97,7 @@ function Events() {
                                 <div className="wrapper">
 
                                     <div className="card-content">
-                                        <p className="card-subtitle">Ocean Water</p>
+                                        <p className="card-subtitle">Livelihood</p>
 
                                         <h3 className="card-title">Far from the countries Vokalia and Consonantia 2022</h3>
 

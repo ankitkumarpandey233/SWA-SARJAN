@@ -143,7 +143,7 @@ const Header = () => {
             </button>
 
             <button className="btn btn-primary">
-              <span>login</span>
+              <span>Login</span>
 
               <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
             </button>
