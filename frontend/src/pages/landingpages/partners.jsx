@@ -15,7 +15,7 @@ function Partners() {
     return (
         <>
             <section className="section partner">
-                <div className="container">
+              <marquee> <div className="container">
 
                     <a href="#" className="partner-logo">
                         <img src={image1} width="157" height="55" loading="lazy" alt="Children Fund"
@@ -57,6 +57,7 @@ function Partners() {
                     </a>
 
                 </div>
+                </marquee> 
             </section>
         </>
     );

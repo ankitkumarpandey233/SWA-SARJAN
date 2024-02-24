@@ -4,7 +4,7 @@ const Feature = () => {
   return (
 <>
 <section className="section features" >
-        <div className="container">
+     <div className="container">
 
           <ul className="features-list">
 

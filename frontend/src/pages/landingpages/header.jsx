@@ -49,95 +49,108 @@ const Header = () => {
 
   return (
     <>
-<header className="header" data-header>
-      <div className="container">
+      <header className="header" data-header>
+      <div style={{ width: '100%', overflow: 'hidden' }}>
+      <marquee behavior="scroll" direction="left">
+        <div style={{ fontSize: '18px', fontWeight: 'bold', color: 'white' }}>Coming Soon </div>
+      </marquee>
+    </div>
 
-<h1>
-  <a href="#" className="logo">Swa-Sarjan</a>
-</h1>
+        <div className="container">
+          <h1>
+            <a href="#" className="logo">SwaSarjan</a>
+          </h1>
 
 
-<button className="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-  <ion-icon name="menu-outline"></ion-icon>
-</button>
+          <button className="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
 
-<nav className="navbar" data-navbar>
+          <nav className="navbar" data-navbar>
 
-  <button className="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-    <ion-icon name="close-outline"></ion-icon>
-  </button>
+            <button className="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-  <a href="#" className="logo">Swa-Sarjan</a>
+            <a href="#" className="logo">SwaSarjan</a>
 
-  <ul className="navbar-list">
+            <ul className="navbar-list">
 
-    <li>
-      <a href="#home" className="navbar-link" data-nav-link>
-        <span>Home</span>
+              <li>
+                <a href="#home" className="navbar-link" data-nav-link>
+                  <span>Home</span>
 
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
-    </li>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
 
-    <li>
-      <a href="#about" className="navbar-link" data-nav-link>
-        <span>About</span>
+              <li>
+                <a href="#about" className="navbar-link" data-nav-link>
+                  <span>About</span>
 
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
-    </li>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
 
-    <li>
-      <a href="#service" className="navbar-link" data-nav-link>
-        <span>Service</span>
+              <li>
+                <a href="#service" className="navbar-link" data-nav-link>
+                  <span>Service</span>
 
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
-    </li>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
 
-    <li>
-      <a href="#donate" className="navbar-link" data-nav-link>
-        <span>Donate</span>
+              <li>
+                <a href="#donate" className="navbar-link" data-nav-link>
+                  <span>Donate</span>
 
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
-    </li>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
 
-    <li>
-      <a href="#event" className="navbar-link" data-nav-link>
-        <span>Event</span>
+              <li>
+                <a href="#event" className="navbar-link" data-nav-link>
+                  <span>Event</span>
 
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
-    </li>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
 
-    <li>
-      <a href="#" className="navbar-link" data-nav-link>
-        <span>Contact</span>
+              <li>
+                <a href="#" className="navbar-link" data-nav-link>
+                  <span>Contact</span>
 
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-      </a>
-    </li>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
 
-  </ul>
+              <li>
+                <a href="#home" className="navbar-link" data-nav-link>
+                  <span>Terms & condition</span>
 
-</nav>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
 
-<div className="header-action">
+            </ul>
 
-  <button className="search-btn" aria-label="Search">
-    <ion-icon name="search-outline"></ion-icon>
-  </button>
+          </nav>
 
-  <button className="btn btn-primary">
-    <span>Donation</span>
+          <div className="header-action">
 
-    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-  </button>
+            <button className="search-btn" aria-label="Search">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
 
-</div>
+            <button className="btn btn-primary">
+              <span>login</span>
 
-</div>
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
       </header>
     </>
   );

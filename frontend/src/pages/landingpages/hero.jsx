@@ -24,7 +24,7 @@ function Hero() {
           </p>
 
           <button className="btn btn-primary">
-            <span>Donation</span>
+            <span>login</span>
 
             <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
           </button>
