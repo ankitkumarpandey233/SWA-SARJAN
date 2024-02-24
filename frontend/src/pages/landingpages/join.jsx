@@ -7,7 +7,7 @@ function Join() {
                 <div className="container">
 
                     <div className="cta-content">
-                        <h2 className="h2 section-title">324+ Trusted Global Partners</h2>
+                        <h2 className="h2 section-title">32+ Trusted Global Partners</h2>
 
                         <button className="btn btn-outline">
                             <span>Become a Partner</span>

@@ -48,7 +48,7 @@ function AboutUs() {
                         </p>
 
                         <h2 className="h2 section-title">
-                            Rise Your Hand to Save <strong>World Animals Life</strong>
+                        Empower Lives. <strong>Unite for Humanitarian Causes</strong>
                         </h2>
 
                         <ul className="tab-nav">
@@ -70,9 +70,7 @@ function AboutUs() {
                         <div className="tab-content">
 
                             <p className="section-text">
-                                But I must explain to you how all this mistaken denouncing pleasure and praising pain was born and I
-                                will give you a
-                                complete account of the system expoundmaster
+                            Allow me to shed light on the genesis of our mission, where understanding replaces denouncement, and compassion triumphs over pain. We will provide a detailed account of the principles that guide our NGO's impactful system.
                             </p>
 
                             <ul className="tab-list">
