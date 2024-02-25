@@ -1,0 +1,43 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.main {
+    margin: 50px;
+}
+
+h1 {
+    color: #000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .main {
+        margin: 20px;
+    }
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .main {
+        margin: 30px;
+    }
+}
+
+/* Large Screens */
+@media only screen and (min-width: 1025px) {
+    .main {
+        margin: 50px;
+    }
+}

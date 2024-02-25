@@ -125,13 +125,17 @@ const Header = () => {
               </li>
 
               <li>
-                <a href="#home" className="navbar-link" data-nav-link>
-                  <span>Terms & condition</span>
-
-                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-              </li>
-
+        <a href="/terms" className="navbar-link" target="_blank" rel="noopener noreferrer">
+          <span>Terms & condition</span>
+          <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="/policy" className="navbar-link" target="_blank" rel="noopener noreferrer">
+          <span>Cancellation Policy</span>
+          <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+      </li>
             </ul>
 
           </nav>
